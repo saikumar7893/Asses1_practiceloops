@@ -1,22 +1,23 @@
 import java.util.*;
 public class Pattern {
     public static void main(String[] args) {
-        int n = 4;
-
-        
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
+       
+int n=1;
+        int k=3;
+for(int i=0;i<na;i++){
+                for(int j=0;j<n;j++)
                 System.out.print("* ");
+                n+=2;
+                System.out.println();
             }
-            System.out.println();
-        }
-
-        
-        for (int i = n - 1; i >= 1; i--) {
-            for (int j = 1; j <= i; j++) {
+            n-=4;
+           
+            for(int i=0;i<k-1;i++){
+                
+                for(int j=0;j<n;j++)
                 System.out.print("* ");
-            }
-            System.out.println();
-        }
+                n=n-2;
+                System.out.println();
+            }
     }
 }
